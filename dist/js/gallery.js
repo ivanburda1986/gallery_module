@@ -54,7 +54,7 @@ class galleryUI {
   }
 
   showCurrentFullPhotoDescription(getCurrentFullPhotoNumber, ultimatePhotoNumber) {
-    this.currentFullPhotoDescription.innerHTML = `<p>${getCurrentFullPhotoNumber()}/${ultimatePhotoNumber}</p>`;
+    this.currentFullPhotoDescription.innerHTML = `<p>${getCurrentFullPhotoNumber()}/${ultimatePhotoNumber}: ${descriptions[getCurrentFullPhotoNumber()-1]}</p>`;
   }
 
   clearPreviousFullPhotoDescription() {

@@ -47,7 +47,7 @@
   z-index: 3;
   transition: all 0.5s ease-in-out; }
   .overlay-hide-btn:hover, .overlay-btn:hover {
-    color: #900000; }
+    color: DarkSeaGreen; }
 
 .overlay-hide-btn {
   display: block;
@@ -102,6 +102,9 @@
   grid-area: description;
   justify-content: center;
   color: #dedede; }
+
+body {
+  background: MediumSeaGreen; }
 
 #section-gallery .content-canvas {
   display: flex;
