@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery module</title>
+  <!--Font Awesome Kit-->
+  <script src="https://kit.fontawesome.com/4b83083c38.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <!--Gallery-->
+  <section id="section-gallery" class="section">
+    <!--Gallery overlay-->
+    <div id="gallery-overlay">
+      <button id="gallery-hide-btn" class="overlay-hide-btn">×</button>
+      <button id="gallery-previous-btn" class="overlay-btn">
+        <i class="fas fa-chevron-left fa-3x"></i>
+      </button>
+      <button id="gallery-next-btn" class="overlay-btn">
+        <i class="fas fa-chevron-right fa-3x"></i>
+      </button>
+      <div id="gallery-full-photo-container"></div>
+      <div id="gallery-full-photo-description"></div>
+    </div>
+    <!--Gallery grid-->
+    <div class="container">
+      <div class="content-canvas">
+        <h1 id="gallery-headline" class="anim-opacity-startState section-headline">
+          Gallery
+        </h1>
+        <div id="gallery-overview"></div>
+      </div>
+    </div>
+  </section>
+  <script src="js/config.js"></script>
+  <script src="js/gallery.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

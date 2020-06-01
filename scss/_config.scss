@@ -1,0 +1,16 @@
+/*Container width */
+$website-width: 70vw;
+
+/*Text colors*/
+$textColorLight: #dedede;
+
+
+/*UI Colors*/
+$backgroundTransparent: rgba(0, 0, 0, 0.95);
+$dominantColor: #900000;
+
+
+//Transitions and animations
+@mixin transition-littleTime {
+  transition: all 0.5s ease-in-out;
+}
